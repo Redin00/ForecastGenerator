@@ -13,7 +13,7 @@ public class Main {
         // e la classe PrevisioneSettimanale, la quale restituisce le previsioni per tutta la settimana compreso il giorno attuale
         // Entrambe queste classi sono sottoclassi della classe abstract PrevisioneGenerata. Per generare le previsioni si fa uso della classe
         // GeneratorePrevisioni, in modo da semplificare il processo. Per immagazzinare i dati della localita' della quale vogliamo ottenere
-        // il meteo, si usa la classe Localita. In seguito aggiunta la versione che fa uso dell'API gratuito OpenWeatherAPI per ottenere previsioni non casuali
+        // il meteo, si usa la classe Localita. In seguito aggiunta la versione che fa uso dell'API gratuito OpenWeatherMap per ottenere previsioni non casuali, ma bensi reali
 
         String titleText = ColorText.GREEN + "  __  __      _                       ____  _                 _       _             \n" +
                 " |  \\/  | ___| |_ ___  ___           / ___|(_)_ __ ___  _   _| | __ _| |_ ___  _ __ \n" +
