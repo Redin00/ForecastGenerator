@@ -15,7 +15,7 @@ public class Localita {
         this.coordinate = coordinate;
     }
 
-    // Getter methods
+    // Metodi getter
 
     public String getNome(){
         return nome;
@@ -25,7 +25,7 @@ public class Localita {
         return ColorText.BLUE + coordinate[0] + ", " + coordinate[1];
     }
 
-    // Setter methods
+    // Metodi setter
 
     public void setNome(String nome) {
         this.nome = nome;
