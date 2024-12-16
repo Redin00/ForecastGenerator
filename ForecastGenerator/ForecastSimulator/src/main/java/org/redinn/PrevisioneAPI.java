@@ -153,7 +153,7 @@ public class PrevisioneAPI{
     // Metodo usato poiché il testo restituito del meteo e' in lingua inglese
     private static String traduzioneStringa(String inputString) throws UnirestException{
 
-        // Replacing (") characters and inserting "%20" instead of spaces
+        // Sostituiamo i caratteri (") con "%20", che indica lo spazio nella query, e rimuoviamo i caratteri (")
         inputString = inputString.replace(" ", "%20").replace("\"", "");
 
         HttpResponse<JsonNode> response = Unirest.get("https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=it&dt=t&q=" + inputString).asJson();
