@@ -10,7 +10,7 @@ public class Main {
 
         // Programma simulatore meteo, il quale utilizza la generazione casuale per generare le diverse previsioni
         // Per fare cio vengono utilizzate due classi, PrevisioneGiornaliera, che restituisce la previsione per ogni ora del giorno
-        // e la classe PrevisioneSettimanale, la quale restituisce le previsioni per tutta la settimana compreso il giorno attuale
+        // e la classe PrevisioneSettimanale, la quale restituisce le previsioni per tutta la settimana
         // Entrambe queste classi sono sottoclassi della classe abstract PrevisioneGenerata. Per generare le previsioni si fa uso della classe
         // GeneratorePrevisioni, in modo da semplificare il processo. Per immagazzinare i dati della localita' della quale vogliamo ottenere
         // il meteo, si usa la classe Localita. In seguito aggiunta la versione che fa uso dell'API gratuito OpenWeatherMap per ottenere previsioni non casuali, ma bensi reali
