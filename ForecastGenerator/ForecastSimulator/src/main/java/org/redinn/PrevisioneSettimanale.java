@@ -6,7 +6,7 @@ import java.util.Calendar;
 
 public class PrevisioneSettimanale extends PrevisioneGenerata {
 
-    // Classe per effettuare la previsione settimanale, la quale parte dal giorno stesso (oggi) ed effettua la previsione di 7 giorni
+    // Classe per la gestione delle previsone delle previsioni settimanali
 
     protected int mediaSettimanale;
 
