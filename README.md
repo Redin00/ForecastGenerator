@@ -1,2 +1,2 @@
 # ForecastGenerator
-A simple school project for generating random weather forecasts, using a simple logic to avoid nonsensical predictions.
+Un semplice progetto scolastico per generare previsioni casuali, o in alternativa ottenere previsioni reali utilizzando l'API di OpenWeatherMap, info su: https://openweathermap.org/api
