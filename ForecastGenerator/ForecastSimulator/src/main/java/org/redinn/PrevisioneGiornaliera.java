@@ -5,7 +5,7 @@ import java.time.ZonedDateTime;
 
 public class PrevisioneGiornaliera extends PrevisioneGenerata {
 
-    // Classe che si occupa di generare
+    // Classe che si occupa della gestione delle previsioni giornaliere
 
     public PrevisioneGiornaliera(){
         super();
