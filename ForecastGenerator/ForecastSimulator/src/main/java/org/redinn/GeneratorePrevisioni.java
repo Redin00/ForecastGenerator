@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class GeneratorePrevisioni {
 
-    // Classe contenente i metodi necessari per generare le previsioni casualmente e i gli attributi necessari
+    // Classe contenente i metodi necessari per generare le previsioni casualmente
 
     private static final Random random = new Random();
     private static final String[] statiMeteo = {"Soleggiato", "Nuvoloso", "Parzialmente nuvoloso", "Pioggerella", "Pioggia", "Nebbia", "Temporale", "Neve", "Tempesta di neve", "Grandine"};
