@@ -56,7 +56,7 @@ public class PrevisioneAPI{
 
     }
 
-    // Stampa delle previsioni giornaliere (7 giorni) prese dall'API
+    // Stampa delle previsioni settimanali prese dall'API
     public static void StampaPrevisioniSettimanali(String nomeLocalita) throws ApiKeyException, UnirestException, InterruptedException {
 
         JsonObject previsioni = getPrevisioni(nomeLocalita);
@@ -153,7 +153,7 @@ public class PrevisioneAPI{
     // Metodo usato poiché il testo restituito del meteo e' in lingua inglese
     private static String traduzioneStringa(String inputString) throws UnirestException{
 
-        // Sostituiamo i caratteri (") con "%20", che indica lo spazio nella query, e rimuoviamo i caratteri (")
+        // Sostituiamo gli spazi con "%20", che indica lo spazio nella query, e rimuoviamo i caratteri (")
         inputString = inputString.replace(" ", "%20").replace("\"", "");
 
         HttpResponse<JsonNode> response = Unirest.get("https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=it&dt=t&q=" + inputString).asJson();
